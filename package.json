@@ -1,0 +1,17 @@
+{
+  "name": "deck-of-cards",
+  "version": "1.0.0",
+  "description": "A deck of cards that can be shuffled and drawn from",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anuj Gakhar",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "intern": "^3.2.3"
+  }
+}

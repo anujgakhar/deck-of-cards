@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Playing cards</title>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/cards.css">
+    </head>
+
+    <body>
+        <div class="container-fluid" style="margin-top:20px;">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="well">
+                        <form class="navbar-form">
+                            <button type="button" class="btn btn-primary">New Deck</button>
+                            <button type="button" class="btn btn-primary">Shuffle</button>
+                            <button type="button" class="btn btn-primary">Sort</button>
+                            <button type="button" class="btn btn-primary">Draw</button>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="count-draw" value="5" style="width:50px;">
+                            </div>
+                            <button type="button" class="btn btn-primary">Draw Multiple</button>
+                        </form>
+                    </div>
+
+                    <div class="row playingCards fourColours inText" style="font-size:22px;">
+                        <div class="col-xs-6">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Deck</h3>
+                                </div>
+                                <div class="panel-body" id="deck-cards"></div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Drawn Cards</h3>
+                                </div>
+                                <div class="panel-body" id="drawn-cards"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+        <script src="js/app.js"></script>
+    </body>
+
+</html>
