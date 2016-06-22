@@ -14,4 +14,6 @@ This app renders a deck of playing cards on a page. You can Shuffle, Sort and Dr
     grunt test
   
  or you can also run the [browser test runner](http://localhost:9001/node_modules/intern/client.html?config=tests/intern), if you fancy the nice UI provided by Intern.
+ 
+ A working demo is [available here](http://anujgakhar.com/demos/deck-of-cards/)
    
