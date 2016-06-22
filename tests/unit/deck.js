@@ -1,7 +1,7 @@
 define([
     'intern!bdd',
     'intern/chai!expect',
-    'intern/order!app/js/deck.js'
+    'intern/order!src/js/deck.js'
 ], function(
     bdd,
     expect
